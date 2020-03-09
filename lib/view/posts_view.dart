@@ -128,6 +128,17 @@ class PostsPage extends StatelessWidget {
 
 
             );
+          }else if(snapshot.hasError){
+            return Center(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Image.asset('assets/algoErrado.png'),
+                  Text('Algo Errado !!!', style: TextStyle(color: Colors.orange, fontSize: 30),)
+                ],
+              ),
+            );
           }
           return Center(child: CircularProgressIndicator());
         },
