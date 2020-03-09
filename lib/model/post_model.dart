@@ -1,13 +1,13 @@
 
 
 import 'package:post_teste_bmg/model/comments_model.dart';
-import 'package:post_teste_bmg/model/user_model.dart';
+import 'package:post_teste_bmg/model/person_model.dart';
 
 class Post{
   final String photoUser;
   final String imagePost;
   final int likes;
-  final User person;
+  final Person person;
   final List<Comments> comment;
 
 
@@ -28,7 +28,7 @@ class Post{
       photoUser: json['profilePhotoUri'],
       imagePost: json['photoUri'],
       likes: json['likes'],
-      person: User.fromJson(json['person']),
+      person: Person.fromJson(json['person']),
       comment: commentsList,
     );
   }

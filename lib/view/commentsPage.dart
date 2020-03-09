@@ -25,7 +25,7 @@ class CommentsPage extends StatelessWidget {
             floating: true,
             expandedHeight: 280,
             flexibleSpace: FlexibleSpaceBar(
-              title: Text(posts.person.name,
+              title: Text("Comentários",
                   style: TextStyle(color: Colors.white)),
               background: Image.network(posts.imagePost, fit: BoxFit.fill),
             ),
@@ -83,7 +83,7 @@ class CommentsPage extends StatelessWidget {
                             Divider(
                               indent: 10,
                               endIndent: 10,
-                              color: Colors.orange,
+                              color: Colors.orange[200],
                             ),
                           ],
                         ),

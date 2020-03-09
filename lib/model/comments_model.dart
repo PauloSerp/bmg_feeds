@@ -1,12 +1,12 @@
 
 
-import 'package:post_teste_bmg/model/user_model.dart';
+import 'package:post_teste_bmg/model/person_model.dart';
 
 class Comments{
   final int commentId;
   final int postId;
   final int personId;
-  final User person;
+  final Person person;
   final String text;
 
   Comments({
@@ -27,7 +27,7 @@ class Comments{
       postId: json['postId'],
       commentId: json['commentId'],
       text: json['text'],
-      person: User.fromJson(json['person']),
+      person: Person.fromJson(json['person']),
 
     );
   }

@@ -106,7 +106,7 @@ class PostsPage extends StatelessWidget {
                                 Divider(
                                   endIndent: 10,
                                   indent: 10,
-                                  color: Colors.orange,
+                                  color: Colors.orange[200],
                                 ),
                               ],
                             ),

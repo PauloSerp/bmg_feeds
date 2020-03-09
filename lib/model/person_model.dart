@@ -1,17 +1,17 @@
-class User{
+class Person{
   final String name;
   final int personId;
   final String profilePhotoUri;
 
-  User({
+  Person({
     this.name,
     this.personId,
     this.profilePhotoUri
   });
 
-  factory User.fromJson(Map<String, dynamic> jsonPerson){
+  factory Person.fromJson(Map<String, dynamic> jsonPerson){
 
-    return User(
+    return Person(
       name: jsonPerson['name'],
       personId: jsonPerson['personId'],
       profilePhotoUri: jsonPerson['profilePhotoUri'],

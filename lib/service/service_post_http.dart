@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart';
 import 'package:post_teste_bmg/model/post_model.dart';
-import 'package:post_teste_bmg/model/user_model.dart';
+import 'package:post_teste_bmg/model/person_model.dart';
 
 class HttpService {
   final String url = "https://mobile.int.granito.xyz/api/feed/getposts";
