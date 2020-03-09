@@ -1,16 +1,17 @@
 # post_teste_bmg
 
-A new Flutter application.
+App para processo seletivo BMG
 
-## Getting Started
+## Proposta
 
-This project is a starting point for a Flutter application.
+Desenvolver um app Flutter com apenas uma view, que será um feed de redes sociais (semelhante ao do Instagram, por exemplo, mas bem reduzido).
 
-A few resources to get you started if this is your first Flutter project:
+ 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Premissas
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+·         Deverá ser escrito um modelo para representar cada Post que, em sua exibição, deverá conter: nome e foto de quem realizou o post, imagem do post, número de likes e número de comentários;
+
+·         A lista dos comentários é um plus, e deverá ter a imagem e nome de cada pessoa responsável pelo comentário;
+
+·         A tela do feed deve ser composta por uma lista de posts que será servida pelo endpoint explanado abaixo;
