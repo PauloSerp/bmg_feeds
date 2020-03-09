@@ -80,7 +80,11 @@ class CommentsPage extends StatelessWidget {
 
                               ],
                             ),
-                            Divider(),
+                            Divider(
+                              indent: 10,
+                              endIndent: 10,
+                              color: Colors.orange,
+                            ),
                           ],
                         ),
                     ).toList(),

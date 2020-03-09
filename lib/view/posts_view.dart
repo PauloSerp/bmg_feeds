@@ -29,7 +29,6 @@ class PostsPage extends StatelessWidget {
                 Column(
                   children: postList.map((Post post) =>
                         GestureDetector(
-                          child: Card(
                             child: Column(
                               children: <Widget>[
                                 SizedBox(
@@ -104,10 +103,13 @@ class PostsPage extends StatelessWidget {
 
                                   ],
                                 ),
-
+                                Divider(
+                                  endIndent: 10,
+                                  indent: 10,
+                                  color: Colors.orange,
+                                ),
                               ],
                             ),
-                          ),
                           onTap: ()=>{
                             Navigator.push(
                                 context,
@@ -120,7 +122,8 @@ class PostsPage extends StatelessWidget {
                         ),
                     ).toList(),
 
-                )
+                ),
+
               ],
 
 
